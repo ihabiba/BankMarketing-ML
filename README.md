@@ -1,3 +1,4 @@
+````markdown
 # Bank Marketing Campaign Prediction
 
 ## 📌 Overview
@@ -60,23 +61,24 @@ To run this project, install the following Python libraries:
 1. Clone this repo:
    ```bash
    git clone https://github.com/ihabiba/BankMarketing-ML
+````
 
 2. Install dependencies:
-```bash
-pip install pandas numpy scikit-learn imbalanced-learn matplotlib seaborn
 
- ## 💡 Business Insights
+   ```bash
+   pip install pandas numpy scikit-learn imbalanced-learn matplotlib seaborn
+   ```
 
-- SVM is more effective at detecting potential subscribers, meaning banks could reduce wasted campaign costs by focusing on customers flagged by the SVM model.
+## 💡 Business Insights
 
-- Decision Trees remain valuable for interpretability — marketing managers can understand why certain customers are more likely to subscribe (e.g., call duration, previous campaign outcome).
-
-- Call duration and previous campaign results emerged as key predictors of subscription — longer calls and positive past responses increase the likelihood of success.
-
-- Balancing the dataset (via SMOTE) was critical; without it, models heavily favored predicting "No" and ignored potential subscribers.
-
-- Actionable takeaway: Banks can combine predictive models (SVM for performance, DT for explainability) to target the right customers while understanding customer behavior drivers.
+* SVM is more effective at detecting potential subscribers, meaning banks could reduce wasted campaign costs by focusing on customers flagged by the SVM model.
+* Decision Trees remain valuable for interpretability — marketing managers can understand why certain customers are more likely to subscribe (e.g., call duration, previous campaign outcome).
+* Call duration and previous campaign results emerged as key predictors of subscription — longer calls and positive past responses increase the likelihood of success.
+* Balancing the dataset (via SMOTE) was critical; without it, models heavily favored predicting "No" and ignored potential subscribers.
+* Actionable takeaway: Banks can combine predictive models (SVM for performance, DT for explainability) to target the right customers while understanding customer behavior drivers.
 
 ## 📌 Key Insight
 
-- This project demonstrates how supervised learning, combined with proper preprocessing and evaluation, can help financial institutions optimize marketing campaigns, reduce costs, and improve conversion rates.
+This project demonstrates how supervised learning, combined with proper preprocessing and evaluation, can help financial institutions optimize marketing campaigns, reduce costs, and improve conversion rates.
+
+```
