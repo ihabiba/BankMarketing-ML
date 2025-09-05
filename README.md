@@ -1,4 +1,3 @@
-````markdown
 # Bank Marketing Campaign Prediction
 
 ## 📌 Overview
@@ -61,7 +60,6 @@ To run this project, install the following Python libraries:
 1. Clone this repo:
    ```bash
    git clone https://github.com/ihabiba/BankMarketing-ML
-````
 
 2. Install dependencies:
 
